@@ -1,0 +1,46 @@
+body{
+	background-color: #1156c5;
+}
+.header-text{
+	font-size: 140px;
+	color: rgb(253, 253, 253);
+	text-shadow: blueviolet 4px;
+	text-shadow: 5px 0px #222830;
+
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+}
+
+.game-table {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+}
+th{
+	padding-bottom: 10px;
+	font-size: 28px;
+	color: white;
+}
+td{
+	padding: 35px;
+}
+
+#emoji-1{
+visibility:visible;
+}
+
+#emoji-2{
+visibility: visible;
+}
+
+#dice-left, #dice-right{
+height:160x;
+width:160px;
+}
